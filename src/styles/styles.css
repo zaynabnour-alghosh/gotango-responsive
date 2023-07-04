@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+  }
+.nav > div {    
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0px;
+    padding:0px;
+  }
+.logo{
+   flex-direction: frow;
+   height:80px;
+   width:100px;
+   padding-left: 50px;
+
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.menu{
+    color:white;
+    margin-top: 30px;
+    padding-right:40px ;
+}
+.branch{
+    color:white;
+    margin-top: 30px;
+    padding-right:40px ;
+}
+.contact{
+    color:white;
+    margin-top: 30px;
+    padding-right:40px ;
+}
