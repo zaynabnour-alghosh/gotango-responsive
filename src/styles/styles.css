@@ -39,15 +39,6 @@
     padding-right:40px ;
     flex-shrink: 1;
 }
-.contact{
-    color:white;
-    margin-top: 30px;
-    padding-right:40px ;
-    flex-shrink: 1;
-}
-.container{
-    display: flex;
-}
 .imgx{
     width: 100%;
 }
@@ -83,13 +74,60 @@
 }
 .category>div> a{
     text-decoration: none;
-    color: white;
-    
-    margin-left: 20%;
-    
+    color: white;    
+    margin-left: 20%;    
 }
 h3{
     padding-top: 10px;
     text-align:center;
     padding-left: 100px;
 }
+.containerB{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top:20px;
+    margin-top: 10px;
+}
+.branchimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.branches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    color:white;
+}
+.hamra{
+    background-color: rgb(207, 88, 24);
+    align-self: flex-end;
+   text-align: center;
+   padding-right: 50px;
+
+}
+
+.branches h3{
+    padding-left: 0px;
+}
+.txt-branch{
+    position: absolute;
+    font-size:50px;
+    padding-left: 25px;
+    color: white;
+    margin-top: 280px;
+    padding:50px;
+    margin-left: 650px;
+}
+.our-b{
+    background-color:  rgb(131, 183, 69);
+    padding-left: 600px;
+   
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
