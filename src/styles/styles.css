@@ -2,6 +2,7 @@
     display: flex;
     background-color: black;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 .nav > div {    
     margin: 10px;
@@ -15,12 +16,12 @@
    height:80px;
    width:100px;
    padding-left: 50px;
-
 }
 .nav-right{
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
+    flex-wrap: wrap;
 }
 .nav a{
     color: #f2f2f2;
@@ -30,14 +31,65 @@
     color:white;
     margin-top: 30px;
     padding-right:40px ;
+    flex-shrink: 1;
 }
 .branch{
     color:white;
     margin-top: 30px;
     padding-right:40px ;
+    flex-shrink: 1;
 }
 .contact{
     color:white;
     margin-top: 30px;
     padding-right:40px ;
+    flex-shrink: 1;
+}
+.container{
+    display: flex;
+}
+.imgx{
+    width: 100%;
+}
+.position-center{
+    position: absolute;
+    font-size:20px;
+    padding-left: 25px;
+    color: white;
+    margin-top: 30px;
+    padding:50px;
+    margin-left: 100px;
+}
+.body{
+    background-color: orange;
+    margin-top:75px;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.category>div{
+    margin-top: 30px;
+    padding:3px;
+    align-content:center;
+
+}
+.category img{
+    height: 300px;
+    width: 300px;
+}
+.category img:hover{
+    transform: scale(0.85);
+}
+.category>div> a{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 20%;
+    
+}
+h3{
+    padding-top: 10px;
+    text-align:center;
+    padding-left: 100px;
 }
